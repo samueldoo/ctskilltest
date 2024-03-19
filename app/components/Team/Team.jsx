@@ -1,5 +1,5 @@
 
-const Climb = () => {
+const Team = () => {
   return (
     <div >
         <div className='flex bg-white p-4 flex-col items-center justify-center text-center ml-9'>
@@ -38,4 +38,4 @@ const Climb = () => {
   )
 }
 
-export default Climb
+export default Team

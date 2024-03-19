@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import logo from "../../../public/logo.png";
 const Hero = ({ backgroundImage }) => {
@@ -9,8 +10,8 @@ const Hero = ({ backgroundImage }) => {
       <div className="flex sm:items-center sm:justify-between">
         <Image src={logo} alt="User Avatar" className="h-8 w-8 mr-2 mt-3 md:ml-80" />
         <div className="mt-3 flex justify-center items-center lg:mr-[19rem] ml-[12rem] gap-14 underline text-white">
-          <a href="#">01. HISTORY</a>
-          <a href="#">02. TEAM</a>
+          <a href="#History">01. HISTORY</a>
+          <a href="#Team">02. TEAM</a>
         </div>
       </div>
       <div className=" px-5 md:py-16 items-center justify-center md:pr-40 text-center md:mt-32 font-bebas font-bold md:text-8xl">
@@ -29,8 +30,8 @@ const Hero = ({ backgroundImage }) => {
             </div>
         </div>
             <div  className='flex lg:ml-[17rem] ml-[7rem] gap-14 items-center underline'>
-          <a href="#">01. HISTORY</a>
-          <a href="#">02. TEAM</a>
+          <a href="#History">01. HISTORY</a>
+           <a href="#Team">02. TEAM</a>
         </div>
         </div >
       </div>
